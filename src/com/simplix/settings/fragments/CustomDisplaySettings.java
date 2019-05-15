@@ -9,13 +9,12 @@ import com.android.settings.simplix.CustomSettingsPreferenceFragment;
 
 import com.android.settings.SettingsPreferenceFragment;
 
-public class DisplaySettings extends CustomSettingsPreferenceFragment {
+public class CustomDisplaySettings extends CustomSettingsPreferenceFragment {
 
     @Override
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
 
-        addPreferencesFromResource(R.xml.display_settings);
-
+        addPreferencesFromResource(R.xml.custom_display_settings);
     }
 }

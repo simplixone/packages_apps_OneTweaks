@@ -15,11 +15,11 @@
         android:title="@string/simplix_settings_title" >
         
         <!-- Display -->
-        <Preference
+        <!--<Preference
             android:key="simplix_display_settings"
             android:title="@string/display_settings_title"
-            android:fragment="com.simplix.settings.fragments.DisplaySettings"
-            android:icon="@drawable/ic_simplix_display"/>
+            android:fragment="com.simplix.settings.fragments.CustomDisplaySettings"
+            android:icon="@drawable/ic_simplix_display"/>-->
         
         <!-- Misc -->
         <Preference
